@@ -1,0 +1,47 @@
+{
+  "name": "api-nodejs-oracle",
+  "version": "1.0.0",
+  "description": "Aplicação CRUD com Node.js & OracleDB",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon",
+    "lint": "eslint --ext .js,.html -f ./node_modules/eslint-friendly-formatter . --fix",
+    "prepush": "npm run lint",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node.js",
+    "javascript",
+    "oracledb",
+    "app-service",
+    "express"
+  ],
+  "author": "Carlos Anders",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/carlosanders/api-nodejs-oracle/issues"
+  },
+  "homepage": "https://github.com/carlosanders/api-nodejs-oracle#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "husky": "^7.0.1",
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "eslint-friendly-formatter": "^4.0.1",
+    "express": "^4.17.1",
+    "express-promise-router": "^4.1.0",
+    "http-errors": "^1.8.0",
+    "oracledb": "^5.2.0",
+    "simple-oracledb": "^2.0.0"
+  }
+}

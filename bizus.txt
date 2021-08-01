@@ -1,0 +1,34 @@
+01-08-2021 - comandos executados
+
+D:\projetos\nodejs\2021\rest-oracle (master)
+git init
+cd api
+npm init -y
+npm i --save-dev husky nodemon
+npm i cors dotenv express express-promise-router oracledb
+npm i simple-oracledb
+npm i http-errors
+npx install-peerdeps --dev eslint-config-airbnb
+
+eslint --init
+
+npm i eslint-friendly-formatter
+
+
+----------------------------------------------------------------------------
+para executar:
+
+npm install eslint --save-dev
+npx install-peerdeps --dev eslint-config-airbnb
+
+
+----------------------------------------------------------------------------
+criado git do projeto:
+https://github.com/carlosanders/api-nodejs-oracle.git
+
+git remote add origin https://github.com/carlosanders/api-nodejs-oracle.git
+git branch -M main
+git push -u origin main
+
+listar pacotes globais:
+npm list -g --depth=0
